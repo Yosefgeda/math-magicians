@@ -47,7 +47,7 @@
 <details>
   <summary>Eslint</summary>
   <ul>
-    <li>Jchecks S</li>
+    <li>Jchecks JS</li>
   </ul>
 </details>
 <details>
@@ -69,7 +69,7 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can ran "npm start"
+> Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,26 +105,24 @@ to change to directory: cd math-magicians
 
 Linters have been installed for this project(npm install).
 Added a gitignore file and included the node_modules and text.md files.
-Linter actions are integreated witg github.
+Linter actions are integreated with github.
 
 
 
 ### Usage
-execute the following steps:
-To run the project on the html file run it through liveserver.
-
+> Coming Soon
 
 
 ### Run tests
 
   npx stylelint "**/*.{css,scss}"
-  npx eslint "**/*.{js,jsx}"
+  AND npx eslint "**/*.{js,jsx}"
 
 
 
 
 ### Deployment
-Not yet available
+> Coming Soon
 
 
 
@@ -150,7 +148,9 @@ Not yet available
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[math_magician_app_will_be_built_based_on_this_setup]**
+- [ ] **[Create_the_home_page_of_the_math_magicians_app]**
+- [ ] **[Build_a_calculator_in_the_math_magicians_app]**
+- [ ] **[Create_a_quote_page_for_the_math_magicians_app]**
 
 
 <!-- CONTRIBUTING -->
@@ -158,7 +158,7 @@ Not yet available
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issue page](https://github.com/Yosefgeda/My-portfolio/issues)
+Feel free to check the [issue page](https://github.com/Yosefgeda/math-magicians/issues)
 
 <!-- SUPPORT -->
 
