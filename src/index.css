@@ -27,7 +27,7 @@ code {
 } */
 
 .container {
-  display:flex;
+  display: flex;
   justify-content: center;
   margin-top: 5%;
 }
@@ -42,7 +42,6 @@ code {
 button {
   border: none;
   padding: 10px 30px;
-
 }
 
 button:hover {
@@ -64,4 +63,3 @@ button:hover {
 .operations {
   background-color: rgb(230, 147, 40);
 }
-
