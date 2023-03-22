@@ -35,10 +35,10 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [# math-magicians] <a name="about-project"></a>
+# 📖 [math-magicians] <a name="about-project"></a>
 
 
-# 📖 [# math-magicians]  Project for setting up enviroment for React to build the math magicians app.  
+## 📖 Project for setting up enviroment for React to build the math magicians app.  
 
 ## 🛠 Built With <a name="built-with"></a>
 

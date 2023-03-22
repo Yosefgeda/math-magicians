@@ -6,7 +6,7 @@ const Buttons = () => (
     <button className="input-btn" type="submit">AC </button>
     <button className="input-btn" type="submit">+/-</button>
     <button className="input-btn" type="submit">%</button>
-    <button className="input-btn operations" type="submit">/</button>
+    <button className="input-btn operations" type="submit">÷</button>
     <button className="input-btn" type="submit">7</button>
     <button className="input-btn" type="submit">8</button>
     <button className="input-btn" type="submit">9</button>
