@@ -35,25 +35,25 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [# math-magicians] <a name="about-project"></a>
+# 📖 [math-magicians] <a name="about-project"></a>
 
 
-# 📖 [# math-magicians]  Project for setting up enviroment for React to build the math magicians app.  
+## 📖 Project for setting up enviroment for React to build the math magicians app.  
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Eslint</summary>
+  <summary>React</summary>
   <ul>
-    <li>Jchecks JS</li>
+    <li>React JS</li>
   </ul>
 </details>
 <details>
-  <summary>Stylelint</summary>
+  <summary>Styling</summary>
   <ul>
-    <li>checks CSS</li>
+    <li>CSS</li>
   </ul>
 </details>
 
@@ -62,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Displays_the_Logo_for_react_app_as_trial
+> Displays_the_Calaulator_UI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +149,7 @@ Linter actions are integreated with github.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Create_the_home_page_of_the_math_magicians_app]**
-- [ ] **[Build_a_calculator_in_the_math_magicians_app]**
+- [ ] **[Add_some_functionality_to_calculator_in_the_math_magicians_app]**
 - [ ] **[Create_a_quote_page_for_the_math_magicians_app]**
 
 

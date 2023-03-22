@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family:
     -apple-system,
@@ -24,4 +24,42 @@ code {
     Consolas,
     'Courier New',
     monospace;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+  background-color: rgb(223, 219, 219);
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.result-output {
+  grid-column: 1 / 5;
+  text-align: end;
+  padding: 10px;
+  background-color: rgb(180, 177, 177);
+  color: white;
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
+
+.operations {
+  background-color: rgb(230, 147, 40);
 }
