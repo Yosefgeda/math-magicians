@@ -1,7 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
 
-// // const n = calculate;
 const Buttons = () => {
   const [result, setResult] = React.useState({
     total: '0',

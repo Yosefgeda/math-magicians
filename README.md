@@ -56,6 +56,12 @@
     <li>CSS</li>
   </ul>
 </details>
+<details>
+  <summary>API</summary>
+  <ul>
+    <li>API Ninjas</li>
+  </ul>
+</details>
 
 
 <!-- Features -->
@@ -65,6 +71,8 @@
 Displays the Calaulator UI
 
 Functionality of calculator All buttons are working.
+
+Random Quotes from the API ninjas is being generated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +158,7 @@ Linter actions are integreated with github.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create_a_quote_generator_for_the_math_magicians_app]**
+- Styling_will_be_optimized
 
 
 <!-- CONTRIBUTING -->
