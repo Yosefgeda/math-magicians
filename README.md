@@ -62,7 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Displays_the_Calaulator_UI
+Displays the Calaulator UI
+
+Functionality of calculator All buttons are working.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,9 +150,7 @@ Linter actions are integreated with github.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create_the_home_page_of_the_math_magicians_app]**
-- [ ] **[Add_some_functionality_to_calculator_in_the_math_magicians_app]**
-- [ ] **[Create_a_quote_page_for_the_math_magicians_app]**
+- [ ] **[Create_a_quote_generator_for_the_math_magicians_app]**
 
 
 <!-- CONTRIBUTING -->
