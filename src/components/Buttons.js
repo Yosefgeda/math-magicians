@@ -12,10 +12,9 @@ const Buttons = () => {
   const handlClick = (e) => {
     setResult(calculate(result, e.target.innerHTML.trim()));
   };
-  const displayValue = 
-    (result.total === null ? '' : result.total) +
-    (result.operation ? ` ${result.operation}` : '') +
-    (result.next ? ` ${result.next}` : '');
+  const displayValue = (result.total === null ? '' : result.total)
+    + (result.operation ? ` ${result.operation}` : '')
+    + (result.next ? ` ${result.next}` : '');
 
   return (
     <div className="btn-container">
