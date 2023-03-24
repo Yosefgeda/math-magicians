@@ -26,10 +26,32 @@ code {
     monospace;
 } */
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: rgb(241, 173, 83);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: rgb(230, 147, 40);
+  border-radius: 50px;
+  color: white;
+  border-bottom: 20px solid rgb(241, 241, 139);
+}
+
 .container {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  gap: 50px;
 }
 
 .btn-container {
@@ -63,4 +85,24 @@ button:hover {
 
 .operations {
   background-color: rgb(230, 147, 40);
+}
+
+.quotes-container {
+  background-color: brown;
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes {
+  color: white;
+  font-weight: bold;
+}
+
+.quotes-error {
+  color: rgb(184, 179, 179);
 }

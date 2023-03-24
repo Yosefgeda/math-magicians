@@ -1,9 +1,15 @@
 import React from 'react';
 import Buttons from './Buttons';
+import Quotes from './Quotes';
+import Navbar from './Navbar';
 
 const Calculator = () => (
-  <div className="container">
-    <Buttons />
+  <div className="calculator">
+    <Navbar />
+    <div className="container">
+      <Quotes data="" />
+      <Buttons />
+    </div>
   </div>
 );
 
