@@ -47,6 +47,31 @@ body {
   border-bottom: 20px solid rgb(241, 241, 139);
 }
 
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  font-size: larger;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -90,12 +115,12 @@ button:hover {
 .quotes-container {
   background-color: brown;
   border: 1px solid black;
-  width: 300px;
   height: auto;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10% 10%;
 }
 
 .quotes {
@@ -105,4 +130,14 @@ button:hover {
 
 .quotes-error {
   color: rgb(184, 179, 179);
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5% 10%;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
