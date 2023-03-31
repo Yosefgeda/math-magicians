@@ -1,13 +1,11 @@
-import { render, renderer } from '@testing-library/react';
+import React from 'react';
+import { render, screen } from '@testing-library/react';
 import Quotes from '../components/Quotes';
 
 describe('Quotes', () => {
-  it('renders Quotes component', () => {
+  test('renders loading state initially', () => {
     render(<Quotes />);
-  });
-
-  it('renders Quotes component', () => {
-    const tree = renderer.create(<Quotes />).toJson();
-    expect(tree).toMatchSnapshot();
+    const loadingState = screen.getByText('Loading Quote...');
+    expect(loadingState).toBeInTheDocument();
   });
 });
