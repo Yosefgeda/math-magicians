@@ -17,8 +17,16 @@ describe('test the operation in operate js file', () => {
     const divide = operate(8, 4, '÷');
     expect(divide).toBe('2');
   });
-  test(' modulo of 9 and 4 is equal to 2', () => {
+  test(' modulo of 9 and 4 is equal to 1', () => {
     const divide = operate(9, 4, '%');
     expect(divide).toBe('1');
+  });
+  test(' divide a number by zero 8 and 0 throws an error to Can\'t divide by 0', () => {
+    const divide = operate(8, 0, '÷');
+    expect(divide).toBe('Can\'t divide by 0.');
+  });
+  test('modulo of a number 8 and 0 throws an error Can\'t find modulo as can\'t divide by 0.', () => {
+    const divide = operate(8, 0, '%');
+    expect(divide).toBe('Can\'t find modulo as can\'t divide by 0.');
   });
 });
