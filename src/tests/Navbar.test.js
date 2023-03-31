@@ -4,11 +4,11 @@ import Navbar from '../components/Navbar';
 
 describe('Navbar', () => {
   test('renders the logo text', () => {
-    render (
+    render(
       <MemoryRouter>
-       <Navbar />
-      </MemoryRouter>
-    )
+        <Navbar />
+      </MemoryRouter>,
+    );
 
     const logoText = screen.getByText('Math Magicians');
     expect(logoText).toBeInTheDocument();

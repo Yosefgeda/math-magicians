@@ -7,12 +7,11 @@ describe('App', () => {
     render(
       <MemoryRouter initialEntries={['/']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     const navbarElement = screen.getByRole('navigation');
     const homePageElement = screen.getByText('Welcome to our Page!');
     expect(navbarElement).toBeInTheDocument();
     expect(homePageElement).toBeInTheDocument();
   });
-
 });

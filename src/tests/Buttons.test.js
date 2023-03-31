@@ -1,7 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Buttons from '../components/Buttons';
 
-
 describe('Buttons', () => {
   it('renders all buttons', () => {
     render(<Buttons />);

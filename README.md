@@ -147,10 +147,10 @@ Linter actions are integreated with github.
 👤 **Author1**
 
 - GitHub: [@yosefgeda](https://github.com/yosefgeda)
-- Twitter: [@yosefgeda](https://twitter.com/yosegeda)
-- LinkedIn: [yosefgeda](https://linkedin.com/in/yosefgeda)
 
+👤 **Author2**
 
+- GitHub: [@mutaigilbert](https://github.com/mutai-gilbert)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
