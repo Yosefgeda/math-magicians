@@ -30,3 +30,4 @@ describe('test the operation in operate js file', () => {
     expect(divide).toBe('Can\'t find modulo as can\'t divide by 0.');
   });
 });
+

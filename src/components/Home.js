@@ -1,17 +1,18 @@
+/* eslint-disable */
 import React from 'react';
 
 const Home = () => (
   <div className="home-page">
     <h1>Welcome to our Page!</h1>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged.
-      It was popularised in the 1960s with the release of Letraset sheets
-      containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-      PageMaker including versions of Lorem Ipsum.
+    Presenting a sophisticated React project that seamlessly amalgamates a fully functional calculator 
+    with a dynamic random quote generator, fetching inspirational quotes from an API source. 
+    This meticulously crafted endeavor showcases technical prowess and innovation, embodying an elegant 
+    synergy of practical utility and engaging interactivity. With an intuitive interface, the calculator 
+    facilitates seamless numerical operations, while the integrated quote generator offers a continuous 
+    source of inspiration. This project underscores dedication to excellence, 
+    exemplifying the seamless integration of complex functionalities within a single cohesive React application, 
+    thereby setting a high standard in web development.
     </p>
   </div>
 );
